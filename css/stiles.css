@@ -1,0 +1,208 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul { 
+    margin: 0;
+    padding: 0;
+} 
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header */
+
+/* Logo */
+.logo {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: #000000;
+}
+
+.logo.logo-footer {
+    color: #ffffff;
+}
+
+.logo .logo-decoration {
+    color: #2196F3;
+}
+
+/* Navigation */
+
+.head-stile {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        padding-top: 24px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #ECECEC;;
+}
+
+.nav-link a {
+    color: #212121;
+}
+
+.nav-link.current a{
+    color: #2196F3;
+}
+
+.contacts{
+    color: #757575;
+}
+/* accent */
+.contacts:hover,
+.contacts:focus,
+.nav-link a:hover,
+.nav-link a:focus{
+    color: #2196F3;
+}
+
+.button:hover,
+.button:focus {
+    background: #2196F3;
+    color: #FFFFFF;;
+}
+
+/* main index*/
+.hero {
+    background-color: #2F303A;
+    min-height: 600px;
+    padding: 200px 237px;
+}
+.hero h1 {
+    font-weight: 900;
+        font-size: 44px;
+        line-height: 1.2;
+        text-transform: uppercase;
+         color: #FFFFFF;
+         padding: 0 47px;
+         margin-bottom: 30px;
+}
+.hero input {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9; 
+    border-radius: 4px;
+    border-color: transparent;
+    min-height: 54px;
+    min-width: 220px;
+    padding: 10px 32px;
+}
+.section-position{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+.button {
+background: #F5F4FA;
+color: #212121;
+}
+.name-section{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        color: #212121;
+        margin-bottom: 50px;
+}
+.benefits h3 {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        color: #212121;
+}
+.benefits p {
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #757575;
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team h3 {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        color: #212121;
+}
+.team p {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        color: #757575;
+}
+/* main portfolio */
+.menu-portfolio{
+    margin-bottom: 50px;
+}
+.button-portfolio {
+    border-color: transparent;
+    border-radius: 4px;
+    padding: 6px 22px;
+}
+.icon-product{
+    width: 370px;
+    padding-bottom: 20px;
+}
+
+.name-product{
+    border: 1px solid #EEEEEE;
+    padding: 20px 24px;
+}
+.icon-product h3 {
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: #212121;
+margin-bottom: 4px;
+}
+.icon-product p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+color: #757575;
+}
+
+/* footer */
+.bg-footer {
+    background-color: #2F303A;
+}
+
+.bg-footer address {
+    font-style: normal;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #FFFFFF;
+}
